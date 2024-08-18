@@ -13,6 +13,3 @@ def catch_all(path):
     r = requests.get(url).text
 
     return r
-
-if __name__ == '__main__':
-    app.run()
